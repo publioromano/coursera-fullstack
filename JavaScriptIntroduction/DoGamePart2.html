@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Do Game Part 2</title>
+</head>
+<body onload='doGame()'>
+    <script>
+        var target;
+        var inputColor;
+        var indexInputColor;
+        var arrayColors = ['blue', 'cyan', 'gold', 'gray', 'green', 'magenta', 'orange', 'red', 'white', 'yellow'];
+        var indexColor;
+        var guesses = 0;
+        var finalize = false;
+
+        function doGame() {
+            indexColor = chooseIndexColor();
+            target = arrayColors[indexColor];
+            alert('The colour chosen is ' + target);
+
+            while (!finalize) {
+                guesses++;
+                inputColor = prompt('I\'m thinking in one of this colors: \n\n' +
+                                    arrayColors.join(', ') + '\n\n' +
+                                    'What color am I thinking of? \n');
+
+                indexInputColor = (arrayColors.indexOf(inputColor));
+
+                finalize = checkGuess();
+            }
+
+            changeColorBg();
+            alert('Congratulations! You have guessed the color!\n\nYou took ' + guesses + ' guesses!');
+        }
+        
+        function changeColorBg() {
+            myBody = document.getElementsByTagName("body")[0];
+            myBody.style.background = inputColor;
+        }
+
+        function checkGuess() {
+            if (indexInputColor == -1) {
+                alert('Sorry. I don\'t recognize your color. \n\n' + 'Please, try again.');
+                return false;
+            }
+
+            if (target < inputColor) {
+                alert('Sorry. Your guess is not correct! \n\nHint: your guess is alphabetial higher than mine.\n');
+                return false;
+            }
+
+            if (target > inputColor) {
+                alert('Sorry. Your guess is not correct! \n\nHint: your guess is alphabetial lower than mine.\n');
+                return false;
+            }
+
+            return true;
+        }
+
+
+        function chooseIndexColor() {
+            var lenghtArray = arrayColors.length;
+            return Math.floor((Math.random() * lenghtArray));
+        }
+
+    </script>
+
+</body>
+</html>

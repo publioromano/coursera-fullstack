@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Do Game Part 1</title>
+</head>
+<body onload='doGame()'>
+    <script>
+        var target;
+        var inputColor;
+        var indexInputColor;
+        var arrayColors = ['blue', 'cyan', 'gold', 'gray', 'green', 'magenta', 'orange', 'red', 'white', 'yellow'];
+        var indexColor;
+        var finalize = false;
+
+        function doGame() {
+            indexColor = chooseIndexColor();
+            target = arrayColors[indexCol or];
+            alert('The colour chosen is ' + target);
+
+            while (!finalize) {
+                inputColor = prompt('I\'m thinking in one of this colors: \n\n' +
+                                    arrayColors.join(', ') + '\n\n' +
+                                    'What color am I thinking of? \n');
+
+                indexInputColor = (arrayColors.indexOf(inputColor));
+
+                finalize = (inputColor == target)
+            }
+        }
+
+        function chooseIndexColor() {
+            var lenghtArray = arrayColors.length;
+            return Math.floor((Math.random() * lenghtArray));
+        }
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlAndCss", "HtmlAndCss\HtmlAndCss.csproj", "{1A9EC459-8817-4836-87CF-985D190274D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JavaScriptIntroduction", "JavaScriptIntroduction\JavaScriptIntroduction.csproj", "{817E1DF1-7283-4F5B-9FE4-DFF339F68AC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedJavaGame", "AdvancedJavaGame\AdvancedJavaGame.csproj", "{7DF3B506-1E23-420D-AA33-A8112093DC88}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modulo 1 - Html Css Javascript", "Modulo 1 - Html Css Javascript", "{BCE856C2-7F10-44DF-9541-D3F29F152CD6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modulo 2 - Bootstrap Front End", "Modulo 2 - Bootstrap Front End", "{52500600-89D9-4C5C-B2DE-4E26D289577B}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "conFusion", "http://localhost:55167", "{C42B7A27-DEBB-49F8-88E7-4E1A988B731F}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_55167"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\WebSites\conFusion\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55167\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_55167"
+		Release.AspNetCompiler.PhysicalPath = "..\..\WebSites\conFusion\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55167\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\..\WebSites\conFusion\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A9EC459-8817-4836-87CF-985D190274D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A9EC459-8817-4836-87CF-985D190274D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A9EC459-8817-4836-87CF-985D190274D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A9EC459-8817-4836-87CF-985D190274D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{817E1DF1-7283-4F5B-9FE4-DFF339F68AC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{817E1DF1-7283-4F5B-9FE4-DFF339F68AC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{817E1DF1-7283-4F5B-9FE4-DFF339F68AC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{817E1DF1-7283-4F5B-9FE4-DFF339F68AC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DF3B506-1E23-420D-AA33-A8112093DC88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DF3B506-1E23-420D-AA33-A8112093DC88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DF3B506-1E23-420D-AA33-A8112093DC88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DF3B506-1E23-420D-AA33-A8112093DC88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C42B7A27-DEBB-49F8-88E7-4E1A988B731F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C42B7A27-DEBB-49F8-88E7-4E1A988B731F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C42B7A27-DEBB-49F8-88E7-4E1A988B731F}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{C42B7A27-DEBB-49F8-88E7-4E1A988B731F}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1A9EC459-8817-4836-87CF-985D190274D4} = {BCE856C2-7F10-44DF-9541-D3F29F152CD6}
+		{817E1DF1-7283-4F5B-9FE4-DFF339F68AC3} = {BCE856C2-7F10-44DF-9541-D3F29F152CD6}
+		{7DF3B506-1E23-420D-AA33-A8112093DC88} = {BCE856C2-7F10-44DF-9541-D3F29F152CD6}
+		{C42B7A27-DEBB-49F8-88E7-4E1A988B731F} = {52500600-89D9-4C5C-B2DE-4E26D289577B}
+	EndGlobalSection
+EndGlobal
