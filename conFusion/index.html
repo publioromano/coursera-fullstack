@@ -32,24 +32,30 @@
           <h4 class="modal-title">Login </h4>
         </div>
         <div class="modal-body">
-          <form class="form-inline">
-            <div class="form-group">
-              <label class="sr-only" for="email">E-mail</label>
-              <input type="email" class="form-control" id="email" placeholder="E-mail" />
+          <form>
+            <div class="form-inline">
+              <div class="form-group">
+                <label class="sr-only" for="email">E-mail</label>
+                <input type="email" class="form-control" id="email" placeholder="E-mail" />
+              </div>
+              <div class="form-group">
+                <label class="sr-only" for="password">Password</label>
+                <input type="password" class="form-control" id="password" placeholder="Password" />
+              </div>
             </div>
-            <div class="form-group">
-              <label class="sr-only" for="password">Password</label>
-              <input type="password" class="form-control" id="password" placeholder="Password" />
+            <div class="form-inline">
+              <div class="checkbox">
+                <label><input type="checkbox" />Remember me</label>
+              </div>
+              <button type="submit" class="btn btn-default btn-sm">Sign in</button>
+              <button type="button" class="btn btn-default btn-sm" data-dismiss="modal">Cancel</button>
             </div>
-            <div class="checkbox">
-              <label><input type="checkbox" />Remember me</label>
-            </div>
-            <button type="submit" class="btn btn-default btn-sm">Sign in</button>
-            <button type="button" class="btn btn-default btn-sm" data-dismiss="modal">Cancel</button>
           </form>
 
         </div>
       </div>
+
+
     </div>
   </div>
   <div id="reserveModal" class="modal fade" role="dialog">
@@ -305,6 +311,7 @@
     $("#reserve-link").click(function () {
       $("#reserveModal").modal('show');
     });
+
   </script>
 </body>
 <object id="c80a6a79-182a-818f-eabb-9a8f9b90aba2" width="0" height="0" type="application/gas-events-abn"></object>
