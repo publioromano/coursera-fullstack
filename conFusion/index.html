@@ -166,7 +166,7 @@
         </ul>
         <ul class="nav navbar-nav navbar-right">
           <li>
-            <a data-toggle="modal" data-target="#loginModal">
+            <a id="btnLoginModal">
               <span class="glyphicon glyphicon-log-in"></span> Login
             </a>
           </li>
@@ -260,7 +260,7 @@
           </div>
           <div class="col-xs-12 col-sm-2">
             <p style="padding: 30px;"></p>
-            <a id="reserve-link" type="button" class="btn btn-block btn-warning" data-placement="bottom" href="#reserveform">
+            <a id="reserve-link" type="button" class="btn btn-block btn-warning" href="#reserveform">
               Reserve Table
             </a>
           </div>
@@ -384,6 +384,9 @@
   <script>
     $("#reserve-link").click(function () {
       $("#reserveModal").modal('show');
+    });
+    $("#btnLoginModal").click(function () {
+        $("#loginModal").modal('show');
     });
     $(document).ready(function () {
       $("#mycarousel").carousel({ interval: 2000 });
